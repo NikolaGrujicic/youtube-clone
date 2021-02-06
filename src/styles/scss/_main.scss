@@ -1,0 +1,6 @@
+// Only global styles belong in here!
+// There needs to be a REALLY good reason to put a new style in here
+// Styles that belong to a module should be defined within
+// an appropriate namespace so that they don't clobber other styles
+
+@import "./headerNav.scss";
