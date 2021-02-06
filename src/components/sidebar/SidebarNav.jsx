@@ -2,6 +2,7 @@ import React from 'react';
 import { Menu, Divider } from 'semantic-ui-react';
 import SideBarItem from './sideBarItem/SideBarItem';
 import '../../styles/scss/SideBar.scss';
+import SideBarHeader from './sideBarHeader/SideBarHeader';
 
 const SideBarNav = () => (
   <Menu borderless vertical stackable fixed="left" className="side-nav">
@@ -9,10 +10,12 @@ const SideBarNav = () => (
     <SideBarItem label="Trending" icon="fire" />
     <SideBarItem label="Followers" icon="spy" />
     <Divider />
+    <SideBarHeader title="Library" />
     <SideBarItem label="History" icon="history" />
     <SideBarItem label="Watch later" icon="clock" />
     <SideBarItem label="Liked videos" icon="thumbs up" />
     <Divider />
+    <SideBarHeader title="More from Youtube" />
     <SideBarItem label="Movies and Shows" icon="film" />
     <Divider />
     <SideBarItem label="Report history" icon="flag" />
