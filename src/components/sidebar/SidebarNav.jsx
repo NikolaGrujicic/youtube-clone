@@ -4,6 +4,7 @@ import SideBarItem from './sideBarItem/SideBarItem';
 import '../../styles/scss/SideBar.scss';
 import SideBarHeader from './sideBarHeader/SideBarHeader';
 import Subscriptions from './subscriptions/Subscriptions';
+import SideBarFooter from './sideBarFooter/SideBarFooter';
 
 const SideBarNav = () => (
   <Menu borderless vertical stackable fixed="left" className="side-nav">
@@ -25,6 +26,7 @@ const SideBarNav = () => (
     <SideBarItem label="Help" icon="help circle" />
     <SideBarItem label="Send feedback" icon="comment" />
     <Divider />
+    <SideBarFooter />
   </Menu>
 );
 
